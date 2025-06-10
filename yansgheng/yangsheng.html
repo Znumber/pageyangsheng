@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>胃炎调理方案 - 科学饮食与生活管理</title>
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --secondary-color: #66BB6A;
+            --accent-color: #2E7D32;
+            --light-color: #E8F5E9;
+            --text-color: #333;
+            --card-bg: #fff;
+            --border-radius: 12px;
+            --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        h2 {
+            color: var(--accent-color);
+            margin: 25px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light-color);
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: var(--primary-color);
+            margin: 20px 0 10px;
+            font-size: 1.4rem;
+        }
+        
+        .card {
+            background-color: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .section-title i {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-right: 10px;
+            width: 30px;
+            text-align: center;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .food-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .food-item {
+            background-color: var(--light-color);
+            padding: 12px 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .food-item i {
+            margin-right: 8px;
+            color: var(--primary-color);
+        }
+        
+        .禁忌食物 .food-item {
+            background-color: #ffebee;
+        }
+        
+        .禁忌食物 .food-item i {
+            color: #f44336;
+        }
+        
+        .注意事项 {
+            background-color: #fff8e1;
+            border-left: 4px solid #ffb74d;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        
+        .注意事项 h4 {
+            color: #ff9800;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .注意事项 h4 i {
+            margin-right: 8px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--accent-color);
+            color: white;
+            border-radius: 20px 20px 0 0;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .food-list {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>胃炎调理方案</h1>
+        <p>科学饮食与生活管理指南</p>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <div class="section-title">
+                <i>🍽️</i>
+                <h2>一、饮食调理</h2>
+            </div>
+            <p><strong>原则：</strong> 易消化、低刺激、营养均衡，保护胃黏膜，减少胃酸负担。</p>
+            
+            <h3>推荐食物</h3>
+            <div class="food-list">
+                <div class="food-item"><i>🥚</i>蒸蛋羹、嫩豆腐</div>
+                <div class="food-item"><i>🐟</i>鱼（鳕鱼、鲈鱼）</div>
+                <div class="food-item"><i>🍗</i>鸡胸肉（炖煮）</div>
+                <div class="food-item"><i>🌾</i>小米粥、山药粥</div>
+                <div class="food-item"><i>🍜</i>燕麦粥（煮烂）、软面条</div>
+                <div class="food-item"><i>🍞</i>馒头（发酵后更易消化）</div>
+                <div class="food-item"><i>🥕</i>胡萝卜（煮软）、南瓜</div>
+                <div class="food-item"><i>🥬</i>菠菜（焯水去草酸）、白菜（清炒）</div>
+                <div class="food-item"><i>🍌</i>熟香蕉、苹果（蒸或煮）</div>
+                <div class="food-item"><i>🥄</i>少量坚果粉（芝麻粉、南瓜子粉）</div>
+                <div class="food-item"><i>🍯</i>蜂蜜（温水冲服）</div>
+            </div>
+            
+            <h3>禁忌食物</h3>
+            <div class="food-list 禁忌食物">
+                <div class="food-item"><i>🌶️</i>辣椒、花椒、生葱蒜</div>
+                <div class="food-item"><i>🍾</i>高盐腌制（咸菜、腊肉、酱料）</div>
+                <div class="food-item"><i>🧊</i>生冷食物（冰饮、生鱼片）</div>
+                <div class="food-item"><i>🍟</i>油腻食物（肥肉、油炸食品）</div>
+                <div class="food-item"><i>☕</i>酒精、咖啡、浓茶</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="section-title">
+                <i>生活</i>
+                <h2>二、生活习惯调整</h2>
+            </div>
+            <ul>
+                <li><strong>少食多餐：</strong> 每日5-6餐，每餐7分饱，避免胃酸过度分泌</li>
+                <li><strong>细嚼慢咽：</strong> 每口食物咀嚼20-30次，减轻胃负担</li>
+                <li><strong>饭后活动：</strong> 餐后散步10-15分钟，避免立即平躺</li>
+                <li><strong>腹部保暖：</strong> 避免受凉，可用暖水袋热敷胃部（温度适宜）</li>
+                <li><strong>戒烟限酒：</strong> 烟草和酒精会加剧胃黏膜损伤</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <div class="section-title">
+                <i>💊</i>
+                <h2>三、营养补充与药物辅助</h2>
+            </div>
+            
+            <h3>营养补充建议</h3>
+            <ul>
+                <li><strong>维生素B12：</strong> 萎缩性胃炎可能影响B12吸收，可遵医嘱口服补充剂</li>
+                <li><strong>叶酸：</strong> 适量补充（如绿叶菜、动物肝脏）可能有助于黏膜修复</li>
+                <li><strong>益生菌：</strong> 选择特定菌种（如双歧杆菌、乳酸菌），调节肠道菌群</li>
+            </ul>
+            
+            <h3>药物辅助（需医生指导）</h3>
+            <ul>
+                <li><strong>抑酸药：</strong> 如质子泵抑制剂（奥美拉唑）短期使用，避免长期依赖</li>
+                <li><strong>黏膜保护剂：</strong> 硫糖铝、铝碳酸镁（中和胃酸）</li>
+                <li><strong>中药调理：</strong> 脾胃虚弱用香砂六君子汤；胃阴不足用沙参麦冬汤（需中医辨证）</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <div class="section-title">
+                <i>📋</i>
+                <h2>四、定期检查与心理调节</h2>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <h3>定期检查与监测</h3>
+                    <ul>
+                        <li>每年1次胃镜检查，监测黏膜病变</li>
+                        <li>检测幽门螺杆菌（Hp），阳性需规范根除治疗</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>心理调节</h3>
+                    <ul>
+                        <li>避免焦虑、压力过大</li>
+                        <li>可通过八段锦、冥想等方式放松</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="注意事项">
+            <h4><i>⚠️</i> 注意事项</h4>
+            <p>个体差异大，建议在消化科医生或营养师指导下调整方案。</p>
+            <p>如出现消瘦、黑便、持续疼痛，需及时就医排除恶性病变。</p>
+            <p>通过长期坚持饮食调理和健康管理，多数患者症状可显著改善。</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 胃炎调理方案 | 科学饮食与生活管理指南</p>
+        <p>请在专业医生指导下使用本方案</p>
+    </div>
+</body>
+</html>
